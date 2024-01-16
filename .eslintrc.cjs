@@ -8,7 +8,7 @@ module.exports = configure({
         newline: true,
         groups: [
           // react and other external imports
-          ['^react', '^[^.\@\\/]', '^@?\\w'],
+          ['^react', '^@?\\w'],
 
           // common aliases (@app, @root, @/, ~/) and anything not matched
           ['@app', '@pages', '@widgets', '@features', '@entities', '@shared'],
