@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
     "paths": {
-      "@app": ["./app/index.ts"],
-      "@app/*": ["./app/*"],
-      "@pages/*": ["./pages/*"],
-      "@widgets/*": ["./widgets/*"],
-      "@features/*": ["./features/*"],
-      "@entities/*": ["./entities/*"],
-      "@shared/*": ["./shared/*"],
+      "@public/*": ["./public/*"],
+      "@icons/*": ["./public/icons/*"],
+      "@app": ["./src/app/index.ts"],
+      "@app/*": ["./src/app/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@widgets/*": ["./src/widgets/*"],
+      "@features/*": ["./src/features/*"],
+      "@entities/*": ["./src/entities/*"],
+      "@shared/*": ["./src/shared/*"],
     }
   }
 }
