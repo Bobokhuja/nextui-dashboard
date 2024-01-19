@@ -1,6 +1,6 @@
 import { nextui } from '@nextui-org/react'
 
-import nextuiConfig from './nextui.config.js'
+import nextuiConfig from './nextui.config'
 
 /** @type {import('tailwindcss').Config} */
 const tailwindConfig = {
