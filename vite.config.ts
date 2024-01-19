@@ -9,7 +9,10 @@ export default defineConfig({
     react(),
     viteTsconfigPaths(),
     svgr({
-      include: '**/*.svg',
+      include: '**/*.svg?react',
     }),
   ],
+  define: {
+    APP_VERSION: JSON.stringify(process.env.npm_package_version),
+  },
 })

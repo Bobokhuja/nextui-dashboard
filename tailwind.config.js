@@ -11,6 +11,9 @@ const tailwindConfig = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ['Inter'],
+    },
   },
   darkMode: 'class',
   plugins: [nextui(nextuiConfig)],

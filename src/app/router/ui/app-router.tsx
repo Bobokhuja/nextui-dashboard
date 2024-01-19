@@ -1,7 +1,9 @@
 import { Route, Routes } from 'react-router-dom'
 
 import { routes } from '@app/router/routes'
+import { AppLayout } from '@shared/ui'
 
+import { navigation } from '../../navigation/navigation'
 import { groupingRoutes } from '../lib/grouping-routes'
 import { renderRoutes } from './render-routes'
 
@@ -13,7 +15,7 @@ export const AppRouter = () => {
       {/** layout route */}
       <Route
         path="/"
-        element={<>123</>}
+        element={<AppLayout navigationItems={navigation} />}
       >
         {renderRoutes(withLayout)}
       </Route>
